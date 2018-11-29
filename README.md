@@ -8,9 +8,8 @@ We will use each of historical stock price dataset from the Reuters. The dataset
 ## Details of Dataset and Models 
 + There are 10 stocks dataset(From 2012 ~ From 2017) and KOSPI index.<br /> 
 + We use 10 stocks,KOSPI not only Jan.2016~Dec.2016 as train/Validation dateset, also use Jan.2017~Dec.2017 as test dateset.<br /> 
-+ We use XGBoost model.<br /> 
-
--Official website: https://xgboost.readthedocs.io/en/latest/index.html<br /> 
++ We use XGBoost model.
+**Official website: https://xgboost.readthedocs.io/en/latest/index.html<br /> 
 
 + XGBoost and other ensemble models is one of learning methods to predict stock prices. Afterwards based on past market data, stocks (listed in KOSPI market) are subject to post-verification(back-testing) and real-time simulation investment.<br /> 
 
