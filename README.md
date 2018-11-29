@@ -3,24 +3,18 @@ In Wall Street, the global financial center, the proportion of investment in art
 In addition, artificial intelligence can make reasonable decisions because it does not pay for the inefficiency of investment sentiment in determining whether to invest and scale.(E.g, The one AI system at the time of the global financial crisis in 2008 recorded a 681% )
 
 ## Dataset 
-We will use each of historical stock price dataset from the Yahoo Finace. The dataset contains the raw time-series data(Open, High, Low, Close*, Adjusted Close*, and Volume).
-
-*Close price adjusted for splits.
-** Adjusted close price adjusted for both dividends and splits.
-
-+Yahoo Finance
-https://finance.yahoo.com/
+We will use each of historical stock price dataset from the Reuters. The dataset contains the raw time-series data(Open, High, Low, Close, and Volume). <br /> 
 
 ## Details of Dataset and Models 
-+There are 10 stocks dataset(From 2012 ~ From 2017) and KOSPI index.<br /> 
-+We use 10 stocks and the index not only Jan.2016~Dec.2016 as train/Validation dateset, also use Jan.2017~Dec.2017 as test dateset.<br /> 
-+We use XGBoost model.<br /> 
++ There are 10 stocks dataset(From 2012 ~ From 2017) and KOSPI index.<br /> 
++ We use 10 stocks,KOSPI not only Jan.2016~Dec.2016 as train/Validation dateset, also use Jan.2017~Dec.2017 as test dateset.<br /> 
++ We use XGBoost model.<br /> 
 
 -Official website: https://xgboost.readthedocs.io/en/latest/index.html<br /> 
 
-+XGBoost and other ensemble models is one of learning methods to predict stock prices. Afterwards based on past market data, stocks (listed in KOSPI market) are subject to post-verification(back-testing) and real-time simulation investment.<br /> 
++ XGBoost and other ensemble models is one of learning methods to predict stock prices. Afterwards based on past market data, stocks (listed in KOSPI market) are subject to post-verification(back-testing) and real-time simulation investment.<br /> 
 
-+We calculate rates of each stock of returns every at the end of each week.<br /> 
++ We calculate rates of each stock of returns every at the end of each week.<br /> 
 
 ## Requirements 
 + XGboost (0.7)
