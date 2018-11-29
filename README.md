@@ -11,7 +11,7 @@ We will use each of historical stock price dataset from the Reuters. The dataset
 </p>
 
 + There are 10 stocks dataset(From 2012 ~ From 2017) and KOSPI index.<br /> 
-+ We use 10 stocks,KOSPI not only 2016(Jan)~2016(Dec) as train/Validation dateset, also use 2017(Jan)~2017(Dec) as test dateset.<br /> 
++ We use 10 stocks,KOSPI not only 2015/2016(Jan)~(Dec) as train/Validation dateset, also use 2016/2017(Jan)~(Dec) as test dateset.<br /> 
 + We use XGBoost model.
 **Official website: https://xgboost.readthedocs.io/en/latest/index.html<br /> 
 
@@ -20,10 +20,12 @@ We will use each of historical stock price dataset from the Reuters. The dataset
 + We calculate rates of each stock of returns every at the end of each week.<br /> 
 ## Results
 
-+ This is an example which is how well train/predict
++ This is an example which is how well train/predict.(For details, Please refer the code "automatic_stock_trading.py")
 <p align="center"> 
 <img src="https://github.com/OpenXAIProject/Automatic-Stock-Trading/blob/master/train_test_data.jpg"  width="600">
 </p>
+
++ This is cumulative returns on 10 stocks in 2016(Jan~ Dec)
 
 ## Requirements 
 + XGboost (0.7)
