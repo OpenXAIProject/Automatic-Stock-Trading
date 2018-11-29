@@ -12,12 +12,15 @@ We will use each of historical stock price dataset from the Yahoo Finace. The da
 https://finance.yahoo.com/
 
 ## Details of Dataset and Models 
-+There are 10 stocks dataset(From 2012 ~ From 2017) and KOSPI index.
-+We use 10 stocks and the index not only Jan.2016~Dec.2016 as train/Validation dateset, also use Jan.2017~Dec.2017 as test dateset.
-+We use XGBoost model.
--Official website: https://xgboost.readthedocs.io/en/latest/index.html
-+XGBoost and other ensemble models is one of learning methods to predict stock prices. Afterwards based on past market data, stocks (listed in KOSPI market) are subject to post-verification(back-testing) and real-time simulation investment.
-+We calculate rates of each stock of returns every at the end of each week.
++There are 10 stocks dataset(From 2012 ~ From 2017) and KOSPI index.<br /> 
++We use 10 stocks and the index not only Jan.2016~Dec.2016 as train/Validation dateset, also use Jan.2017~Dec.2017 as test dateset.<br /> 
++We use XGBoost model.<br /> 
+
+-Official website: https://xgboost.readthedocs.io/en/latest/index.html<br /> 
+
++XGBoost and other ensemble models is one of learning methods to predict stock prices. Afterwards based on past market data, stocks (listed in KOSPI market) are subject to post-verification(back-testing) and real-time simulation investment.<br /> 
+
++We calculate rates of each stock of returns every at the end of each week.<br /> 
 
 ## Requirements 
 + XGboost (0.7)
