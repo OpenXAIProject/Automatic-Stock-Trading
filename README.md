@@ -7,7 +7,7 @@ We will use each of historical stock price dataset from the Reuters. The dataset
 
 ## Details of Dataset and Models 
 + There are 10 stocks dataset(From 2012 ~ From 2017) and KOSPI index.<br /> 
-+ We use 10 stocks,KOSPI not only Jan.2016~Dec.2016 as train/Validation dateset, also use Jan.2017~Dec.2017 as test dateset.<br /> 
++ We use 10 stocks,KOSPI not only 2016(Jan)~2016(Dec) as train/Validation dateset, also use 2017(Jan)~2017(Dec) as test dateset.<br /> 
 + We use XGBoost model.
 **Official website: https://xgboost.readthedocs.io/en/latest/index.html<br /> 
 
