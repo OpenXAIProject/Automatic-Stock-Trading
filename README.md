@@ -18,6 +18,12 @@ We will use each of historical stock price dataset from the Reuters. The dataset
 + XGBoost and other ensemble models is one of learning methods to predict stock prices. Afterwards based on past market data, stocks (listed in KOSPI market) are subject to post-verification(back-testing) and real-time simulation investment.<br /> 
 
 + We calculate rates of each stock of returns every at the end of each week.<br /> 
+## Results
+
++ This is an example which is how well train/predict
+<p align="center"> 
+<img src="https://github.com/OpenXAIProject/Automatic-Stock-Trading/blob/master/train_test_data.jpg"  width="600">
+</p>
 
 ## Requirements 
 + XGboost (0.7)
