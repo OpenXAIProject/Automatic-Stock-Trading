@@ -1,5 +1,4 @@
 # Automatic-Stock-Trading
-==
 In Wall Street, the global financial center, the proportion of investment in artificial intelligence has increased gradually since the 2008 financial crisis (Source: Bloomberg)
 In addition, artificial intelligence can make reasonable decisions because it does not pay for the inefficiency of investment sentiment in determining whether to invest and scale.(E.g, The one AI system at the time of the global financial crisis in 2008 recorded a 681% )
 
