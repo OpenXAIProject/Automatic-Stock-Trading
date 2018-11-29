@@ -9,6 +9,7 @@ We will use each of historical stock price dataset from the Reuters. The dataset
 <p align="center"> 
 <img src="https://github.com/OpenXAIProject/Automatic-Stock-Trading/blob/master/structure1.jpg"  width="600">
 </p>
+
 + There are 10 stocks dataset(From 2012 ~ From 2017) and KOSPI index.<br /> 
 + We use 10 stocks,KOSPI not only 2016(Jan)~2016(Dec) as train/Validation dateset, also use 2017(Jan)~2017(Dec) as test dateset.<br /> 
 + We use XGBoost model.
