@@ -15,7 +15,7 @@ https://finance.yahoo.com/
 +There are 10 stocks dataset(From 2012 ~ From 2017) and KOSPI index.
 +We use 10 stocks and the index not only Jan.2016~Dec.2016 as train/Validation dateset, also use Jan.2017~Dec.2017 as test dateset.
 +We use XGBoost model.
-  -Official website: https://xgboost.readthedocs.io/en/latest/index.html
+-Official website: https://xgboost.readthedocs.io/en/latest/index.html
 +XGBoost and other ensemble models is one of learning methods to predict stock prices. Afterwards based on past market data, stocks (listed in KOSPI market) are subject to post-verification(back-testing) and real-time simulation investment.
 +We calculate rates of each stock of returns every at the end of each week.
 
