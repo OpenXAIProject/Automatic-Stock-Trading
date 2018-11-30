@@ -25,7 +25,6 @@ We will use each of historical stock price dataset from the Reuters. The dataset
 <img src="https://github.com/OpenXAIProject/Automatic-Stock-Trading/blob/master/train_test_data.jpg"  width="600">
 </p>
 
-+ This is cumulative returns on 10 stocks in 2016(Jan~ Dec)
 
 ## Requirements 
 + XGboost (0.7)
